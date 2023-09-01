@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@300&family=Tilt+Prism&display=swap');
+
+@import 'animate.css';
+* {
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.animate {
+    animation: trans 2s 1;
+}
+
+.myimg {
+    animation: fadeIn 2s 1;
+    animation-fill-mode: both;
+    animation-delay: 1s;
+}
+
+@keyframes trans {
+    from {
+        transform: translateY(-500px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.h1 {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+    padding-left: 2rem;
+    animation: gameKeyFrame 2.5s 1;
+}
+
+@keyframes gameKeyFrame {
+    from {
+        transform: translateY(1000px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.header {
+    margin-inline: 7rem;
+}
+
+.pad {
+    padding-inline: 10px;
+    color: white;
+
+}
+
+.pad:hover {
+    cursor: pointer;
+    outline: 1px solid;
+    background: #4db5ff;
+    height: 2rem;
+    color: #2c2c6c;
+    transition: 0.5s ease-in-out;
+    outline-style: none;
+    border-radius: 1rem;
+}
+
+.img {
+    border-radius: 100%;
+}
+
+
+@media screen and (max-width:964px) {
+    .pad {
+        display: none;
+    }
+
+    .hirebtn {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+    }
+
+    .mainhead {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 7rem;
+    }
+
+    .header {
+
+        flex-wrap: wrap;
+        margin: 0px;
+        padding-top: 1rem;
+    }
+
+    .h1 {
+        text-align: center;
+        margin-top: 0.5rem;
+        padding-left: 0rem;
+        width: auto;
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+
+    .img {
+        width: 16rem;
+    }
+
+    .nav {
+        padding-right: 1rem;
+    }
+
+    .brand {
+        padding-right: 6rem;
+    }
+}
+
+
+@media screen and (max-width:595px) {
+    .h1 {
+        height: 17rem;
+        font-size: 3.3rem;
+    }
+
+    .myimg {
+        margin-top: 1rem;
+    }
+    .mainhead{
+        padding-top: 0rem;
+    }
+}

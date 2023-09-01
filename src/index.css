@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+h1{
+    color: #4db5ff;
+}
+p{
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #1f1f38;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu:hover{
+    cursor: pointer;
+    color: #4db5ff;
+}
+.hamMenu{
+    animation: trans 0.8s 1;
+}

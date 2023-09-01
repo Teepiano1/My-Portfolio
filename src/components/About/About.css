@@ -1,0 +1,62 @@
+.abt{
+    border-radius: 2rem;
+    display: flex;
+    background: rgba(77, 181, 255, 0.4);
+    
+}
+.abat{
+    padding: 4rem;
+    padding-left: 9rem;
+}
+.abattext{
+    padding-left: 1.5rem;
+    background:  rgba(77, 181, 255, 0.4);
+    border-radius: 1rem    ;
+    color: white;
+    height: 31rem;
+    width: fit-content;
+}
+
+.AboutImg{
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(8deg);
+    width: 40rem;
+}
+.AboutImg:hover{
+    transform: rotate(0);
+    transition: 400ms ease-in;
+}
+
+
+
+@media  screen and (max-width:1301px){
+    .abat{
+        flex-wrap: wrap;
+        gap: 3rem;
+        padding-left:3rem;
+        /* margin-bottom: 6rem; */
+    }
+    .abt{
+        margin: 0 auto;
+        width: 27rem;
+    }
+    .abattext{
+        font-size: 1.5rem;
+        margin: 0px;
+        padding-left: 0.5rem;
+        background-color: transparent;
+        height: fit-content;
+    }
+}
+
+
+@media  screen and (max-width:469px){
+    .abat{
+        padding-left: 3rem;
+    }
+    .abattext{
+        height: fit-content;
+        font-size: 1rem;
+    }
+}
