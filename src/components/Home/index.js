@@ -43,7 +43,7 @@ const Home = () => {
     return (
         <div className=' h-[100vh]'>
             <nav className={`${showNav ? 'visible' : 'hidden'} animate fixed mt-[0] w-[100%] z-10 flex justify-around h-[4rem] nav bg-[#2c2c6c] shadow-sm pr-[3rem]`} >
-                <div className='brand w-[100%] mt-1 text-[2rem] leading-[3.5rem] font-bold'><div className=' text-[#4db5ff] pl-[3rem] max-w-[4rem]'> Teepee<span className='text-white'>tech</span></div>
+                <div className='brand w-[100%] mt-1 text-[2rem] leading-[3.5rem] font-bold'><div className=' logo text-[#4db5ff] pl-[3rem] max-w-[4rem]'> Teepee<span className='text-white'>tech</span></div>
                     <Hambuger showHamburg={showHamburg} hamHAndler={hamHAndler} />
                 </div>
                 <div className=' brandy flex mt-4 pr-[8rem]'>
@@ -86,7 +86,7 @@ const Home = () => {
                         </a>
                     </div>
                     &copy; <span className=' font-medium'>teepeetech2023</span>. All Rights Reserved.
-                    Designed by <span className=' font-medium'>Tolulope</span>
+                    Designed by <span className=' font-medium'>Olabode Tolulope</span>
                 </Footer>
             </div>
         </div>
